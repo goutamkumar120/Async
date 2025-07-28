@@ -28,6 +28,9 @@ public class OrderManagementService {
       5. assign delivery partner
       6. assign trailer
       7. dispatch product
+
+      1-2 : Synchronous
+      2-7 : Asynchronous
       **/
 
     public Order processOrder(Order order) throws InterruptedException {
